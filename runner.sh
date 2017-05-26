@@ -1,4 +1,4 @@
-URL="https://owa.uac.pt/ews/exchange.asmx"
+source url
 
 # Ensure an old container is removed
 docker rm davmail &> /dev/null
