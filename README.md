@@ -3,7 +3,7 @@
 Repository containing the configuration files to build an image for the Davmail service
 
 # Setup and Deployment Instructions #
-_Running some of these commands may need to be run with sudo_
+_Some of these commands may need to be run with sudo_
 
 The setup is composed of the following steps:
 
