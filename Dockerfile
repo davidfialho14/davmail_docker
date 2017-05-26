@@ -13,9 +13,15 @@ EXPOSE 1080 1143 1389 1110 1025
 
 # Create davmail user and change to that user (do not run as root!)
 RUN groupadd -r davmail && useradd -r -g davmail davmail
-USER davmail
 
 # Copy necessary configurations into an app folder
 COPY app /app
+RUN chown -R davmail:davmail /app
 
+USER davmail
+
+# Copy necessary scripts into the container
+COPY entrypoint.sh /
+
+ENTRYPOINT ["/entrypoint.sh"]
 CMD davmail /app/davmail.properties
