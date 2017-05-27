@@ -7,7 +7,7 @@ _Some of these commands may need to be run with sudo_
 
 The setup is composed of the following steps:
 
-1. Install docker engine (see [Install docker on Ubuntu 16.04](www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04))
+1. Install docker engine (see [Install docker on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04))
 
 1. Clone this project (requires **git** to be installed)
 
